@@ -35,7 +35,7 @@ The OpenAI Translator is still in its early stages of development, and I'm activ
 - [X] Modular and object-oriented design for easy customization and extension.
 - [ ] Implement a graphical user interface (GUI) for easier use.
 - [ ] Add support for batch processing of multiple PDF files.
-- [ ] Create a web service or API to enable usage in web applications.
+- [x] Create a web service or API to enable usage in web applications.
 - [ ] Add support for other languages and translation directions.
 - [ ] Add support for preserving the original layout and formatting of the source PDF.
 - [ ] Improve translation quality by using custom-trained translation models.
@@ -105,6 +105,6 @@ This project is licensed under the GPL-3.0 License. See the [LICENSE](LICENSE) f
 
 
 ## What's enhanced
-[x] Enhance translation prompt that helps ChatGPT output a more consistent translation for tables. Otherwise, it sometimes outputs translation like `['[水果,', '颜色,', '价格', '(美元)]']` while sometimes outputs `['水果', '颜色', '价格', '(美元)']`
-[x] Fix the issue that it ignores the header of the table
-[x] Create a web service or API to enable usage in web applications. After installing packages, run `quart run` and POST `/api/translate` with `input_path` (e.g. `tests/test.pdf`) to check
+- [x] Enhance translation prompt that helps ChatGPT output a more consistent translation for tables. Otherwise, it sometimes outputs translation like `['[水果,', '颜色,', '价格', '(美元)]']` while sometimes outputs `['水果', '颜色', '价格', '(美元)']`
+- [x] Fix the issue that it ignores the header of the table
+- [x] Create a web service or API to enable usage in web applications. After installing packages, run `quart run` and POST `/api/translate` with `input_path` (e.g. `tests/test.pdf`) to check
